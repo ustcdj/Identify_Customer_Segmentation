@@ -45,7 +45,7 @@ Interpret Principal Components
 The 1st principle component can explain 7.78% variance, 2nd for 5.71%, 3rd 3.54% and so on.
 To explain 90% variance, 105 principle components are needed.
 
-<img src="images/variance_vs_n_pca.jpg" width=600>
+<img src="images/variance_vs_n_pca.jpg" width=800>
 
 the 1st PC is related to financial, movement pattern, and number of 1-2 family houses in the PLZ8 region.
 The 2nd PC is related to personal (age, generation, personality, energy consumption etc.) and financial.
@@ -54,7 +54,7 @@ The 3rd PC is related to personal (personality and Gender).
 ### Apply Clustering to General Population
 Use sklearn's KMeans class to perform k-means clustering on the PCA-transformed data and use scree plot to decide on 7 as the number of clusters to keep.
 
-<img src="images/screeplot.jpg" width=500>
+<img src="images/screeplot.jpg" width=400>
 
 Apply the same feature wrangling, selection, engineering, imputing, feature scaling steps to the customer demographics data.
 Then use PCA, and clustering from general population to obtain cluster assignments for all of the data in the customer demographics data.
@@ -62,7 +62,7 @@ Compare customer clusters to general population clusters,
 It is clear from the table above, cluster 2 and 4 are overrepresented in the customer data compared to the general population.
 cluster 0, 1, 3, and cluster 5 and 6 are underrepresented in the customer data compared to the general population.
 
-<img src="images/population_vs_customer.jpg" width=500>
+<img src="images/population_vs_customer.jpg" width=600>
 
 I looked into cluster 4 and 0:
 To summarize, customers relatively popular with the mail-order company share some characters below,**
