@@ -1,8 +1,10 @@
 # Identify Customer Segmentation
 
-- [Table of Contents](#Table_of_Contents)
+[Table of Contents](#Table_of_Contents)
 - [Introduction](#)
-- [File Descriptions](#)
+- [Data](#Data)
+- [Installation](#Installation)
+- [Summary of Analysis](#Summary-of-Analysis)
 - [Acknowledgements](#)
 
 ## Introduction
