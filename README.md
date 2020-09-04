@@ -13,7 +13,7 @@ The goal of this project is to help a mail-order sales company in Germany to ide
 The detailed code is in the **[`Identify_Customer_Segments.ipynb`](https://github.com/ustcdj/Identify_Customer_Segmentation/blob/master/Identify_Customer_Segments.ipynb)** notebook.
 
 ## Data
-The data was provided by Bertelsmann Arvato Analytics. There are four files associated with this project):
+The data was provided by Bertelsmann Arvato Analytics. There are four files associated with this project:
 
 - `Udacity_AZDIAS_Subset.csv`: Demographics data for the general population of Germany; 891211 persons (rows) x 85 features (columns).
 - `Udacity_CUSTOMERS_Subset.csv`: Demographics data for customers of a mail-order company; 191652 persons (rows) x 85 features (columns).
